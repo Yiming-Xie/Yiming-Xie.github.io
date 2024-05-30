@@ -42,7 +42,7 @@ My general research interest lies in <b>imaging system simulation</b> and <b>com
 
 <p><i>Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2024.</i></p>
 
-[paper](https://arxiv.org/pdf/2403.17094) / [webpage](https://yiming-xie.github.io/SynFog.github.io/)
+[paper](https://arxiv.org/pdf/2403.17094) / [webpage](https://yiming-xie.github.io/SynFog)
 
 <!-- [**Webpage**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+          content="SynFog - webpage">
+    <meta name="author" content="Yiming Xie,
+                                Henglu Wei,
+                                Zhenyi Liu,
+                                Xiaoyu Wang,
+                                Xiangyang Ji">
+
+    <title>SynFog</title>
+    <!-- Bootstrap core CSS -->
+    <!--link href="bootstrap.min.css" rel="stylesheet"-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="offcanvas.css" rel="stylesheet">
+    <!--    <link rel="icon" href="img/favicon.gif" type="image/gif">-->
+
+    <style>
+        .title-with-margin {
+            margin-left: 100px; /* 设置左边距 */
+            margin-right: 100px; /* 设置右边距 */
+        }
+    </style>
+</head>
+
+<body>
+<div class="jumbotron jumbotron-fluid">
+    <div class="container"></div>
+    <h2 class="title-with-margin">SynFog: A Photo-realistic Synthetic Fog Dataset based on End-to-end Imaging Simulation for Advancing Real-World Defogging in Autonomous Driving</h2>
+    <h3>CVPR 2024</h3>
+<!--            <p class="abstract">An interpretable, data-efficient, and scalable neural scene representation.</p>-->
+    <hr>
+    <p class="authors">
+        <a href="https://yiming-xie.github.io">Yiming Xie</a><sup>1*</sup>,
+        <a target="_blank"> Henglu Wei<sup>1*</sup></a>,
+        <a target="_blank"> Zhenyi Liu<sup>2</sup></a>,
+        <a target="_blank"> Xiaoyu Wang<sup>1</sup></a>,
+        <a href="https://www.au.tsinghua.edu.cn/info/1111/1524.htm"> Xiangyang Ji</a><sup>1</sup>
+    </p>
+    <p class="institutions">
+        <a><sup>1</sup>Tsinghua University</a>
+        <a><sup>2</sup>Stanford University</a>
+
+    </p>       
+    <div class="btn-group" role="group" aria-label="Top menu">
+        <a class="btn btn-primary" href="https://arxiv.org/pdf/2403.17094">Paper</a>
+        <a class="btn btn-primary" href="poster.pdf">Poster</a>
+        <a class="btn btn-primary" href="https://yiming-xie.github.io/SynFog">Dataset(Coming Soon)</a>
+    </div>
+</div>
+
+<div class="container">
+    <div class="section">
+        <h2>Abstract</h2>
+        <p>
+            To advance research in learning-based defogging algorithms, various synthetic fog datasets 
+            have been developed. However, existing datasets created using the Atmospheric Scattering Model
+             (ASM) or real-time rendering engines often struggle to produce photo-realistic foggy images 
+             that accurately mimic the actual imaging process. This limitation hinders the 
+             effective generalization of models from synthetic to real data. In this paper, 
+             we introduce an end-to-end simulation pipeline designed to generate photo-realistic foggy images. 
+             This pipeline comprehensively considers the entire physically-based foggy scene imaging process, closely 
+             aligning with real-world image capture methods. Based on this pipeline, we present a new 
+             synthetic fog dataset named SynFog, which features both sky light and active lighting conditions, 
+             as well as three levels of fog density. Experimental results demonstrate that models trained on SynFog exhibit 
+             superior performance in visual perception and detection accuracy compared to others when applied to real-world foggy images.
+        </p>
+        <img src='img/teaser.jpg' title="teaser" class="center" width="100%">
+    </div>
+    
+
+    <div class="section">
+        <h2>End-to-end Simulation Pipeline</h2>
+        <hr>
+        <p>
+            We propose an end-to-end approach for generating photo-realistic foggy images 
+            that incorporates accurate light transportation in scattering medium and physical 
+            characteristics of optics and sensor into the synthesized images. The simulation pipeline consisting of two components: 
+            a) Foggy scene radiance is rendered using volumetric path tracing. 
+            b) The radiance data is processed through a physically-based camera model, which comprises optics, sensor and image processing 
+            to faithfully replicate real camera devices.
+        </p>
+        <img src='img/pipeline.jpg' title="framework" class="center" width="100%">
+    </div>
+
+    <div class="section">
+        <h2>Experiments</h2>
+        <hr>
+        <h4>a. Fog Chamber Validation</h4>
+        <p>
+            We establish an indoor fog chamber to validate the fidelity of our fog simulation pipeline.
+            It can be seen that images simulated through our pipeline exhibit a closer resemblance to real-captured foggy images.
+        </p>
+        <img src='img/exp1.jpg' title="exp1" class="center" width="50%">
+
+        <hr>
+        <h4>b. Transferability across the Real-to-Virtual Gap</h4>
+        <p>
+            Benefiting from the high authenticity of the SynFog dataset, models trained on it can effectively generalize to 
+            real foggy images and produce naturally colored defogged images. 
+            Conversely, models trained on the other two datasets display poorer generalization to real data, 
+            resulting in artifacts and color distortion in defogged images.
+        </p>
+        <img src='img/exp2.jpg' title="exp2" class="center" width="100%">
+        
+        <hr>
+        <h4>c. Algorithm Benchmarking</h4>
+        <p>
+            We use SynFog test set to assess several representative defogging methods. The results indicate 
+            the substantial room for improvement in existing defogging methods, especially when applied to more realistic fog datasets.
+        </p>
+        <img src='img/exp3.jpg' title="exp3" class="center" width="100%">
+        
+
+    </div>
+
+    <div class="section">
+        <h2>Conclusion</h2>
+        <hr>
+        <p>
+            In this paper, we present an end-to-end foggy image simulation pipeline. 
+            Our approach utilizes volumetric path tracing to model a more precise light scattering 
+            process with global illumination. By incorporating a physically-based camera processing 
+            pipeline that includes optics, sensor and image processing, we can closely mimic the 
+            authentic capture process under foggy conditions. Additionally, we develop a new 
+            synthetic fog dataset, SynFog, to facilitate the research on defogging. 
+            Comprehensive experiments have validated the authenticity and reliability of the SynFog dataset.
+        </p>
+    </div>
+
+    <hr>
+    <!-- <footer>
+        <p>Feel free to send any feedback and questions to <a href="https://yuchy-zhao.github.io/">Yunqi Zhao</a></p>
+    </footer> -->
+    <footer>
+        <p><small>The website template was borrowed from <a href="https://vsitzmann.github.io/siren/">SIREN</a></small></p>
+    </footer>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
