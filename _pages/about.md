@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a second-year Master student at <a href='https://www.tsinghua.edu.cn/en/'>Tsinghua University</a>, advised by Prof. <a href='https://www.au.tsinghua.edu.cn/info/1111/1524.htm'>Xiangyang Ji</a>. I received my B.E. degree in Automation from <a href='https://www.seu.edu.cn/english/'>Southeast University</a> under the supervision of Prof. <a href='https://www.yangangwang.com/'>Yangang Wang</a>.
+I am a third-year Master student at <a href='https://www.tsinghua.edu.cn/en/'>Tsinghua University</a>, advised by Prof. <a href='https://www.au.tsinghua.edu.cn/info/1111/1524.htm'>Xiangyang Ji</a>. I received my B.E. degree in Automation from <a href='https://www.seu.edu.cn/english/'>Southeast University</a> under the supervision of Prof. <a href='https://www.yangangwang.com/'>Yangang Wang</a>.
 
 My general research interest lies in <b>imaging system simulation</b> and <b>computational photography</b>, especially foggy image simulation and differentiable optical design.
 
@@ -42,7 +42,7 @@ My general research interest lies in <b>imaging system simulation</b> and <b>com
 
 <p><i>Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2024.</i></p>
 
-[paper](https://arxiv.org/pdf/2403.17094) / [webpage](https://yiming-xie.github.io/SynFog)
+[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Xie_SynFog_A_Photo-realistic_Synthetic_Fog_Dataset_based_on_End-to-end_Imaging_CVPR_2024_paper.pdf) / [webpage](https://yiming-xie.github.io/SynFog)
 
 <!-- [**Webpage**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
