@@ -28,8 +28,8 @@ My general research interest lies in <b>imaging system simulation</b> and <b>com
 <br><br>
 
 # 📖 Experience
-- *2022.08 - 2025.06*, M.Sc. in Electronic Information Engineering, Tsinghua University (THU), Beijing, China. 
-- *2018.08 - 2022.06*, B.Sc. in Automation, Southeast University (SEU), Nanjing, China.
+- *2022.08 - 2025.06*, M.Eng. in Big Data Technology and Engineering, Tsinghua University (THU), Beijing, China. 
+- *2018.08 - 2022.06*, B.E. in Automation, Southeast University (SEU), Nanjing, China.
 <br><br>
 
 # 📝 Publications 
