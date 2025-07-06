@@ -29,7 +29,7 @@ My general research interest lies in <b>imaging system simulation</b> and <b>com
 <br><br>
 
 # 📖 Educations
-- *2025.08 - present, Ph.D. in Control Science and Engineering, Tsinghua University, Beijing, China. 
+- *2025.08 - present*, Ph.D. in Control Science and Engineering, Tsinghua University, Beijing, China. 
 - *2022.08 - 2025.06*, M.E. in Big Data Technology and Engineering, Tsinghua University, Beijing, China. 
 - *2018.08 - 2022.06*, B.E. in Automation, Southeast University, Nanjing, China.
 <br><br>
