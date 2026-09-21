@@ -15,10 +15,10 @@ h1, h2, h3 { font-weight: 300; }
 #theme-toggle { color: var(--global-text-color); background: transparent; border: 0; padding: 10px; border-radius: 4px; cursor: pointer; }
 #theme-toggle:hover { background: var(--global-code-bg-color); }
 a:focus-visible, button:focus-visible { outline: 2px solid var(--global-theme-color); outline-offset: 4px; }
-.profile.float-right { margin-left: 35px; margin-bottom: 20px; }
+.profile.float-right { width: 25%; max-width: 230px; margin-left: 35px; margin-bottom: 0; }
 .profile img { height: auto; }
-.profile-caption { text-align: center; margin-top: 16px; font-size: .85rem; color: var(--global-text-color-light); line-height: 1.6; }
 .biography p { margin-bottom: 20px; }
+.biography p:last-child { margin-bottom: 0; }
 .home-section { margin-top: 34px; }
 .home-section h2 { font-size: 1.8rem; margin-bottom: 20px; }
 a.section-title { color: var(--global-text-color); }
@@ -37,8 +37,6 @@ a.paper-title { color: var(--global-text-color); }
 .publications ol.bibliography li .links a.btn { margin: 0 8px 0 0; box-shadow: none; font-size: .72rem; border-radius: 3px; padding: 4px 12px; }
 .personal-social { margin-top: 48px; border-top: 1px solid var(--global-divider-color); padding-top: 26px; }
 .contact-links { display: flex; justify-content: center; gap: 24px; flex-wrap: wrap; }
-.contact-note { margin-top: 8px; font-size: .85rem; }
-.contact-note a { color: var(--global-text-color-light); }
 footer.sticky-bottom { font-size: .76rem; padding: 22px 0; }
 .education-entry { display: grid; grid-template-columns: 190px 1fr; gap: 24px; padding: 26px 0; border-bottom: 1px solid var(--global-divider-color); }
 .education-date { color: var(--global-text-color-light); font-size: .9rem; padding-top: 5px; }
@@ -57,7 +55,6 @@ footer.sticky-bottom { font-size: .76rem; padding: 22px 0; }
  .post-title { font-size: 2.4rem; }
  .chinese-name { font-size: 1.2rem; margin-left: 7px; }
  .profile.float-right { float: none !important; width: 190px; margin: 0 auto 28px; }
- .profile-caption { margin-top: 10px; }
  .home-section { margin-top: 28px; }
  .news-table th { width: 92px; padding-right: 10px; }
  .contact-links { gap: 12px 20px; }
