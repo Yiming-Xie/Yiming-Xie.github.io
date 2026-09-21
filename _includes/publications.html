@@ -1,0 +1,4 @@
+<div class="publications"><ol class="bibliography">{% for paper in site.data.publications %}<li><div class="row">
+<div class="col-sm-4 publication-image"><a href="{{ paper.webpage | relative_url }}" aria-label="View the SynFog project"><img class="img-fluid rounded" src="{{ paper.image | relative_url }}" alt="SynFog synthetic fog image examples" width="400" height="100" loading="lazy"></a><span class="venue-badge">{{ paper.badge }}</span></div>
+<div class="col-sm-8"><div class="title"><a class="paper-title" href="{{ paper.webpage | relative_url }}">{{ paper.title }}</a></div><div class="author">{{ paper.authors }}</div><div class="periodical"><em>{{ paper.venue }}</em></div><div class="links"><a class="btn btn-sm" href="{{ paper.paper }}">PDF</a><a class="btn btn-sm" href="{{ paper.webpage | relative_url }}">Website</a></div></div>
+</div></li>{% endfor %}</ol></div>

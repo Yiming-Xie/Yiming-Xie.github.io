@@ -1,0 +1,7 @@
+- title: "SynFog: A Photo-realistic Synthetic Fog Dataset based on End-to-end Imaging Simulation for Advancing Real-World Defogging in Autonomous Driving"
+  authors: "<strong>Yiming Xie</strong>, Henglu Wei, Zhenyi Liu, Xiaoyu Wang, Xiangyang Ji"
+  venue: "Conference on Computer Vision and Pattern Recognition (CVPR), 2024"
+  badge: "CVPR 2024"
+  image: /images/SynFog_cvpr2024.png
+  paper: https://openaccess.thecvf.com/content/CVPR2024/papers/Xie_SynFog_A_Photo-realistic_Synthetic_Fog_Dataset_based_on_End-to-end_Imaging_CVPR_2024_paper.pdf
+  webpage: /SynFog/

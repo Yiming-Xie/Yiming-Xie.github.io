@@ -1,0 +1,7 @@
+<header><nav id="navbar" class="navbar navbar-light fixed-top" aria-label="Main navigation"><div class="container nav-inner">
+<a class="navbar-brand" href="{{ '/' | relative_url }}"><strong>Yiming</strong> Xie</a><div class="nav-links">
+<a class="nav-link{% if page.title == 'about' %} active{% endif %}" {% if page.title == 'about' %}aria-current="page"{% endif %} href="{{ '/' | relative_url }}">about</a>
+<a class="nav-link{% if page.title == 'publications' %} active{% endif %}" {% if page.title == 'publications' %}aria-current="page"{% endif %} href="{{ '/publications/' | relative_url }}">publications</a>
+<a class="nav-link{% if page.title == 'education' %} active{% endif %}" {% if page.title == 'education' %}aria-current="page"{% endif %} href="{{ '/education/' | relative_url }}">education</a>
+<button id="theme-toggle" type="button" aria-label="Switch color theme" title="Switch color theme"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M20.5 13A8.5 8.5 0 0 1 11 3.5 8.5 8.5 0 1 0 20.5 13Z"/></svg></button>
+</div></div></nav></header>

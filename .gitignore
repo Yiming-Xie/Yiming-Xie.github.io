@@ -1,3 +1,6 @@
 _site/
-push.sh
+.sass-cache/
+.jekyll-cache/
+.bundle/
+vendor/
 .DS_Store
