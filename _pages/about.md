@@ -17,9 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a first-year Ph.D. student in the Department of Automation at <a href='https://www.tsinghua.edu.cn/en/'>Tsinghua University</a>, advised by Prof. <a href='https://www.au.tsinghua.edu.cn/info/1111/1524.htm'>Xiangyang Ji</a>. I received my Master's degree from Tsinghua University in 2025, also under the supervision of Prof. Ji. Prior to that, I obtained my B.E. degree from <a href='https://www.seu.edu.cn/english/'>Southeast University</a> in 2022, advised by Prof. <a href='https://www.yangangwang.com/'>Yangang Wang</a>.
+I am a second-year Ph.D. student in the Department of Automation at <a href='https://www.tsinghua.edu.cn/en/'>Tsinghua University</a>, advised by Prof. <a href='https://www.au.tsinghua.edu.cn/info/1111/1524.htm'>Xiangyang Ji</a>. I received my Master's degree from Tsinghua University in 2025, also under the supervision of Prof. Ji. Prior to that, I obtained my B.E. degree from <a href='https://www.seu.edu.cn/english/'>Southeast University</a> in 2022, advised by Prof. <a href='https://www.yangangwang.com/'>Yangang Wang</a>.
 
-My general research interest lies in <b>imaging system simulation</b> and <b>computational photography</b>, especially foggy image simulation and differentiable optical design.
+My general research interest lies in <b>computational imaging</b> and <b>imaging system simulation</b>, especially differentiable optical design.
 
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
