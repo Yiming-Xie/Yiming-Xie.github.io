@@ -10,7 +10,7 @@ max_width: 930px
 markdown: kramdown
 highlighter: rouge
 include: [_pages]
-exclude: [docs, google_scholar_crawler, Gemfile, Gemfile.lock, README.md, licenses, vendor, .bundle, scripts, .github, run_server.sh]
+exclude: [tmp, output, docs, google_scholar_crawler, Gemfile, Gemfile.lock, README.md, licenses, vendor, .bundle, scripts, .github, run_server.sh]
 plugins: [jekyll-sitemap, jekyll-redirect-from]
 sass:
   style: compressed
