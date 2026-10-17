@@ -1,9 +1,29 @@
 ---
 layout: default
 ---
-<div class="post"><header class="post-header"><h1 class="post-title"><span class="font-weight-bold">Yiming</span> Xie <span class="chinese-name" lang="zh">谢艺明</span></h1><p class="desc">Ph.D. student · <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a></p></header>
-<article><div class="profile float-right"><img class="img-fluid rounded-circle" src="{{ '/images/android-chrome-512x512.png' | relative_url }}" alt="Yiming Xie" width="512" height="512" fetchpriority="high"></div>
-<div class="clearfix biography">{{ content }}</div>
-<section class="home-section" aria-labelledby="news-heading"><h2 id="news-heading">news</h2>{% include news.html %}</section>
-<section class="home-section" aria-labelledby="papers-heading"><h2 id="papers-heading"><a class="section-title" href="{{ '/publications/' | relative_url }}">selected publications</a></h2>{% include publications.html %}</section>
-{% include social.html %}</article></div>
+<div class="home">
+  <section class="about-section" id="about" aria-labelledby="name">
+    <div class="introduction">
+      <h1 id="name">Yiming Xie <span lang="zh">谢艺明</span></h1>
+      <p class="research-focus">Computational Imaging <span aria-hidden="true">/</span> Computer Vision</p>
+      <div class="biography">{{ content }}</div>
+    </div>
+    <aside class="profile" aria-label="Profile and contact links">
+      <div class="portrait-frame"><img class="portrait" src="{{ '/images/android-chrome-512x512.png' | relative_url }}" alt="Yiming Xie" width="230" height="230"></div>
+      <p class="profile-caption">Ph.D. student · Tsinghua University</p>
+      {% include social.html %}
+    </aside>
+  </section>
+  <section class="home-section" id="education" aria-labelledby="education-heading">
+    <h2 id="education-heading">Education</h2>
+    {% include education.html %}
+  </section>
+  <section class="home-section" id="news" aria-labelledby="news-heading">
+    <h2 id="news-heading">News</h2>
+    {% include news.html %}
+  </section>
+  <section class="home-section" id="publications" aria-labelledby="papers-heading">
+    <h2 id="papers-heading">Publications</h2>
+    {% include publications.html %}
+  </section>
+</div>
