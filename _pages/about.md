@@ -9,4 +9,4 @@ I am a Ph.D. student in the Department of Automation at <a href="https://www.tsi
 
 My research lies at the intersection of <b>computational imaging</b> and <b>computer vision</b>, with a focus on co-designing <b>optics and AI</b> for task-driven imaging and perception. My work encompasses physics-based imaging simulation, synthetic data generation, and end-to-end differentiable optical design.
 
-Before starting my Ph.D., I earned my master's degree at Tsinghua University under the supervision of Prof. Ji. I received my B.E. in Automation from <a href="https://www.seu.edu.cn/english/">Southeast University</a>, where I was advised by Prof. <a href="https://www.yangangwang.com/">Yangang Wang</a>.
+I received my master's degree from Tsinghua University, advised by Prof. <a href="https://www.au.tsinghua.edu.cn/info/1111/1524.htm">Xiangyang Ji</a>, and my B.E. in Automation from <a href="https://www.seu.edu.cn/english/">Southeast University</a>, advised by Prof. <a href="https://www.yangangwang.com/">Yangang Wang</a>.
